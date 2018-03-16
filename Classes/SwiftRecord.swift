@@ -797,7 +797,7 @@ extension NSManagedObject {
 }
 
 extension NSManagedObject {
-    open class func mappings() -> [String: String] {
+    @objc open class func mappings() -> [String: String] {
         return [String: String]()
     }
     
